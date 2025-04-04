@@ -123,6 +123,34 @@ transform: scale(1.035) ;
 
 /* Планети */
 
+/* video */
+
+.video__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 0px 80px 0px 80px;
+    padding: 20px 0 20px; ;
+    border-radius: 50px;
+    background-color: rgba(54, 54, 54, 0.67);
+}
+.video__title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.video{
+    width: 80%;
+    height: 100%;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /* footer */
 .footer {
     background-color: rgba(12, 12, 9, 0.9);
